@@ -1,0 +1,10 @@
+POST http://localhost:8000/users/
+Content-Type: application/json
+
+{
+    "username": "otoz2",
+    "password": "1234",
+    "email": "otoz2@bitcamp.ge",
+    "first_name": "Otoz2",
+    "last_name": "Zaaa"
+}

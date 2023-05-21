@@ -1,0 +1,3 @@
+GET http://localhost:8000/users/2
+Content-Type: application/json
+Authorization: Token 42f11d487208a26d08e23a1d16305e8ffcb88f57
