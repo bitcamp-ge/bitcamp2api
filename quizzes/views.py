@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import QuizAttempt
+from .serializers import QuizAttemptSerializer
 
-# Create your views here.
+class QuizAttemptViewSet(viewsets.ModelViewSet):
+    queryset = QuizAttempt.objects.all()
+    serializer_class = QuizAttemptSerializer
