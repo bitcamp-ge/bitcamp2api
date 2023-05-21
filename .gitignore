@@ -126,8 +126,5 @@ media/
 # Since this could contain sensitive information ignore it
 local_settings.py
 
-# Ignore migrations
-*/migrations/*
-
 # Ignore VSCode folder
 .vscode
